@@ -9,7 +9,7 @@ jobs:
   build-pkg:
     runs-on: ubuntu-22.04
     strategy:
-      max-parallel: 1
+      #max-parallel: 1
       matrix:
         BRANCH: [unstable, testing, stable]
     steps:
